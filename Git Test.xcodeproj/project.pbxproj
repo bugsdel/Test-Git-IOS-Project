@@ -21,6 +21,7 @@
 		65A8348219BFBBBE0084B530 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A8346419BFBBBE0084B530 /* UIKit.framework */; };
 		65A8348A19BFBBBE0084B530 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65A8348819BFBBBE0084B530 /* InfoPlist.strings */; };
 		65A8348C19BFBBBE0084B530 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A8348B19BFBBBE0084B530 /* Git_TestTests.m */; };
+		65A8349719BFC1E80084B530 /* DLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A8349619BFC1E80084B530 /* DLTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		65A8348719BFBBBE0084B530 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		65A8348919BFBBBE0084B530 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		65A8348B19BFBBBE0084B530 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		65A8349519BFC1E80084B530 /* DLTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLTest.h; path = ../DLTest.h; sourceTree = "<group>"; };
+		65A8349619BFC1E80084B530 /* DLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLTest.m; path = ../DLTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		65A8346619BFBBBE0084B530 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				65A8349519BFC1E80084B530 /* DLTest.h */,
+				65A8349619BFC1E80084B530 /* DLTest.m */,
 				65A8346F19BFBBBE0084B530 /* DLAppDelegate.h */,
 				65A8347019BFBBBE0084B530 /* DLAppDelegate.m */,
 				65A8347219BFBBBE0084B530 /* Main.storyboard */,
@@ -253,6 +258,7 @@
 				65A8347119BFBBBE0084B530 /* DLAppDelegate.m in Sources */,
 				65A8347719BFBBBE0084B530 /* DLViewController.m in Sources */,
 				65A8346D19BFBBBE0084B530 /* main.m in Sources */,
+				65A8349719BFC1E80084B530 /* DLTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
